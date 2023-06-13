@@ -8,7 +8,7 @@ import random, math
 # constants
 NUM_AGENTS = 5
 RADIUS_AGENT = 18
-SPEED = 5
+SPEED = 10
 
 class World:
     def __init__(self) -> None:

@@ -1,12 +1,12 @@
 """Driver code that starts the simulation"""
 """When I get my hands on the UI, this will probably be the place to connect it"""
 
-from world.world import World
+from world.world import World, SPEED
 from agent.agentengine import AgentEngine
 from threading import Timer
 
 # delta t constant
-DELTA_T = 0.1
+DELTA_T = 1.0/SPEED
 
 def main():
     world = World()
