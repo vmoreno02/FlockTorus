@@ -1,0 +1,1 @@
+"""Uses the Adapter pattern to bridge the gap between my code and the existing UI"""
